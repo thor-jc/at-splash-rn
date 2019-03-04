@@ -1,14 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { AuthApp } from 'at-auth-rn';
+import { LoginScreen } from 'at-auth-rn';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <AuthApp />
-        <Text> HEY WTF!!! </Text>
-        <AuthApp />
+        <Text> HEY WTF!!!   </Text>
+        <LoginScreen />
       </View>
     );
   }
